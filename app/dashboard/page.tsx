@@ -1,5 +1,5 @@
 'use client'
-
+import SalesLineChart from '../components/sales-chart'
 import { Badge } from '@/app/components/badge'
 
 interface Stat {
@@ -16,7 +16,7 @@ const stats: Stat[] = [
   { label: 'Bartender Tip %', value: '21.2%', labelBadge: '+20%', valueBadge: '↑' },
 ]
 
-export default function RevenueHeader() {
+export default function Page() {
     return (
         <div className="flex flex-col gap-8">
           {/* Revenue Stat Header Section */}
@@ -54,10 +54,9 @@ export default function RevenueHeader() {
             </div>
           </section>
           <section>
-            {/* e.g., Charts, Tables, or Recent Orders */}
-            <div className="text-zinc-700 dark:text-zinc-300 text-sm italic">
-              {/* Replace this with your next component charts using d3 framework*/}
-              Upcoming: Reservation analytics, charts, etc.
+            <div className="max-w-xl mx-auto mt-8">
+              <h1 className="text-2xl font-bold mb-4">Sales Overview</h1>
+                <SalesLineChart />
             </div>
           </section>
         </div>
