@@ -163,13 +163,13 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             </SidebarSection>
             <SidebarSection className="max-lg:hidden">
                 <SidebarHeading>Today’s Important Games</SidebarHeading>
-                <SidebarItem href="/sports/1">Pickup Soccer - 9am</SidebarItem>
-                <SidebarItem href="/sports/2">Basketball League - 1pm</SidebarItem>
+                <SidebarItem href="/sports/1">Houston Astros - 3:10pm</SidebarItem>
+                <SidebarItem href="/sports/2">Houston Rockets - 9:30pm</SidebarItem>
             </SidebarSection>
             <SidebarSection className="max-lg:hidden">
                 <SidebarHeading>Today’s Reservations</SidebarHeading>
-                <SidebarItem href="/reservations/1">Studio A - 10am</SidebarItem>
-                <SidebarItem href="/reservations/2">Conference Room - 3pm</SidebarItem>
+                <SidebarItem href="/reservations/1">Reservation 1 - 7pm | 20</SidebarItem>
+                <SidebarItem href="/reservations/2">Reservation 2 - 8pm | 15</SidebarItem>
             </SidebarSection>
             <SidebarSpacer />
             <SidebarSection>
