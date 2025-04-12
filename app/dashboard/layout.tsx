@@ -59,7 +59,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             </NavbarItem>
             <Dropdown>
               <DropdownButton as={NavbarItem}>
-                <Avatar src="/profile-photo.jpg" square />
+                <Avatar src="/McLogo-Dark.png" square />
               </DropdownButton>
               <DropdownMenu className="min-w-64" anchor="bottom end">
                 <DropdownItem href="/my-profile">
@@ -94,8 +94,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <SidebarHeader>
             <Dropdown>
               <DropdownButton as={SidebarItem} className="lg:mb-2.5">
-                <Avatar src="/tailwind-logo.svg" />
-                <SidebarLabel>Tailwind Labs</SidebarLabel>
+                <Avatar src="/McLogo-Dark.png" />
+                <SidebarLabel>McIntyre's Webster</SidebarLabel>
                 <ChevronDownIcon />
               </DropdownButton>
               <DropdownMenu className="min-w-80 lg:min-w-64" anchor="bottom start">
@@ -105,12 +105,16 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 </DropdownItem>
                 <DropdownDivider />
                 <DropdownItem href="/teams/1">
-                  <Avatar slot="icon" src="/tailwind-logo.svg" />
-                  <DropdownLabel>Tailwind Labs</DropdownLabel>
+                  <Avatar slot="icon" src="/McLogo-Dark.png" />
+                  <DropdownLabel>McIntyre's Heights</DropdownLabel>
                 </DropdownItem>
                 <DropdownItem href="/teams/2">
-                  <Avatar slot="icon" initials="WC" className="bg-purple-500 text-white" />
-                  <DropdownLabel>Workcation</DropdownLabel>
+                  <Avatar slot="icon" src="/McLogo-Dark.png"/>
+                  <DropdownLabel>McIntyre's Northstar</DropdownLabel>
+                </DropdownItem>
+                <DropdownItem href="/teams/2">
+                  <Avatar slot="icon" src="/McLogo-Dark.png"/>
+                  <DropdownLabel>McIntyre's Southtown</DropdownLabel>
                 </DropdownItem>
                 <DropdownDivider />
                 <DropdownItem href="/teams/create">
@@ -152,7 +156,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 <CalendarIcon />
                 <SidebarLabel>Scheduling</SidebarLabel>
               </SidebarItem>
-              <SidebarItem href="/broadcasts">
+              <SidebarItem href="/dashboard/reports">
                 <ChartBarSquareIcon />
                 <SidebarLabel>Reports</SidebarLabel>
               </SidebarItem>
