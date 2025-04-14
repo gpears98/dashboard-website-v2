@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Dashboard",
+  title: "Hospitality Hub",
   description: "The ultimate bar dashboard.",
 };
 
